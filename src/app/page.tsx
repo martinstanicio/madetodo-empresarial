@@ -21,7 +21,7 @@ import { getWhatsAppLink } from "@/lib/whatsapp";
 
 export default function Home() {
   return (
-    <>
+    <div>
       <Hero />
       <main>
         <div className="border-y bg-secondary text-secondary-foreground shadow-inner-y">
@@ -170,6 +170,6 @@ export default function Home() {
           </Button>
         </section>
       </main>
-    </>
+    </div>
   );
 }
